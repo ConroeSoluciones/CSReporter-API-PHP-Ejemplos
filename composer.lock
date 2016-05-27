@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "c8db3a1a07a6c0ccc91742ce5307d201",
+    "content-hash": "4dcc3cdead684e5218b9eceb323ee51a",
+    "packages": [
+        {
+            "name": "conroe-soluciones/csreporter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ConroeSoluciones/CSReporter-API-PHP.git",
+                "reference": "a53a18baf21b4144c5da07e7528f4fdc0cc85d41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ConroeSoluciones/CSReporter-API-PHP/zipball/a53a18baf21b4144c5da07e7528f4fdc0cc85d41",
+                "reference": "a53a18baf21b4144c5da07e7528f4fdc0cc85d41",
+                "shasum": ""
+            },
+            "require-dev": {
+                "codegyre/robo": "~1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ConroeSoluciones\\CSReporter\\": "src/main/ConroeSoluciones/CSReporter/"
+                }
+            },
+            "description": "API CSReporter para PHP",
+            "support": {
+                "source": "https://github.com/ConroeSoluciones/CSReporter-API-PHP/tree/master",
+                "issues": "https://github.com/ConroeSoluciones/CSReporter-API-PHP/issues"
+            },
+            "time": "2016-05-27 07:25:21"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "conroe-soluciones/csreporter": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

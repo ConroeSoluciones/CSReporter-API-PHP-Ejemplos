@@ -1,0 +1,11 @@
+{
+    "require": {
+        "conroe-soluciones/csreporter": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ConroeSoluciones/CSReporter-API-PHP.git"
+        }
+    ]
+}
