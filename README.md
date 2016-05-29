@@ -13,7 +13,7 @@ utilizarás para ejecutarlos. De no hacerlo, estos ejemplos no funcionarán.
 # Ejecutar
 
 La API CSReporter se incluye utilizando [Composer](https://getcomposer.org/), por
-lo que será necesario ejecutar el siguiente comando para hacerlo:
+lo que será necesario ejecutar el siguiente comando para descargarlo e instalarlo:
 
     composer install
 
