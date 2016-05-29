@@ -12,6 +12,11 @@ utilizarás para ejecutarlos. De no hacerlo, estos ejemplos no funcionarán.
 
 # Ejecutar
 
+La API CSReporter se incluye utilizando [Composer](https://getcomposer.org/), por
+lo que será necesario ejecutar el siguiente comando para hacerlo:
+
+    composer install
+
 Para ejecutar los ejemplos, puedes hacerlo desde la línea de comandos 
 utilizando el comando php. Ejemplo:
 
