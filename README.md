@@ -9,6 +9,7 @@ utilizarás para ejecutarlos. De no hacerlo, estos ejemplos no funcionarán.
 # Dependencias
 
 * PHP 5.3+
+* [Composer](https://getcomposer.org/)
 
 # Ejecutar
 
