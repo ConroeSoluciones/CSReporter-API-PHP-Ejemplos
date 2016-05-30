@@ -10,6 +10,9 @@
  * describe cómo verificar el estado de la misma, para finalmente tener
  * el resumen de los resultados encontrados.
  */
+// esto es necesario para evitar errores al realizar operaciones que involucran
+// fechas
+date_default_timezone_set("America/Mexico_City");
 
 // archivo autoload.php de Composer
 require_once dirname(__FILE__) . '/../vendor/autoload.php';
@@ -20,11 +23,7 @@ use ConroeSoluciones\CSReporter\StatusCFDI;
 use ConroeSoluciones\CSReporter\TipoCFDI;
 
 // la configuración necesaria para correr los ejemplos
-$config = require dirname(__FILE__) . "/config.php";
-
-// esto es necesario para evitar errores al realizar operaciones que involucran
-// fechas
-date_default_timezone_set("America/Mexico_City");
+$config = require dirname(__FILE__) . "/../config.php";
 
 // las credenciales del contrato con ConroeSoluciones, únicamente sirven
 // para validar el contrato y NO para la realización de consultas ante el
@@ -61,15 +60,13 @@ while (!$consulta->isTerminada()) {
 
 // una vez terminada, se puede verificar el resumen de la misma
 echo $consulta->getStatus() . "\n";
-echo "Total resultados: " . $consulta->getTotalResultados() . "\n";
-echo "Total páginas: " . $consulta->getPaginas() . "\n";
 
-// además de poder iterar las páginas con los resultados obtenidos
-for ($i = 1; $i <= $consulta->getPaginas(); $i++) {
-    $resultados = $consulta->getResultados($i);
-
-    // hacer algo con los resultados obtenidos
-}
+// las consultas pueden terminar con fallo, es necesario verificar esto
+// antes de intentar obtener el resumen de la consulta
+if (!$consulta->isFallo()) {
+    echo "Total resultados: " . $consulta->getTotalResultados() . "\n";
+    echo "Total páginas: " . $consulta->getPaginas() . "\n";
+} 
 
 // se debe llamar a este método para liberar los recursos que haya utilizado el
 // CSReporter

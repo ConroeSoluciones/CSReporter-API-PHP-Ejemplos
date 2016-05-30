@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ConroeSoluciones/CSReporter-API-PHP.git",
-                "reference": "efc70c4610634afa85121c4c09ebd9ce70fe27dd"
+                "reference": "d97436947e68fa039d165e9c3daedb9da1578a24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ConroeSoluciones/CSReporter-API-PHP/zipball/efc70c4610634afa85121c4c09ebd9ce70fe27dd",
-                "reference": "efc70c4610634afa85121c4c09ebd9ce70fe27dd",
+                "url": "https://api.github.com/repos/ConroeSoluciones/CSReporter-API-PHP/zipball/d97436947e68fa039d165e9c3daedb9da1578a24",
+                "reference": "d97436947e68fa039d165e9c3daedb9da1578a24",
                 "shasum": ""
             },
             "require-dev": {
@@ -35,7 +35,7 @@
                 "source": "https://github.com/ConroeSoluciones/CSReporter-API-PHP/tree/master",
                 "issues": "https://github.com/ConroeSoluciones/CSReporter-API-PHP/issues"
             },
-            "time": "2016-05-29 04:51:34"
+            "time": "2016-05-30 01:51:20"
         }
     ],
     "packages-dev": [],

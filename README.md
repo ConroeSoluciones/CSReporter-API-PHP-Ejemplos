@@ -20,4 +20,4 @@ lo que será necesario ejecutar el siguiente comando para descargarlo e instalar
 Para ejecutar los ejemplos, puedes hacerlo desde la línea de comandos 
 utilizando el comando php. Ejemplo:
 
-    php realizar_consulta.php
+    php ejemplos/realizar_consulta.php
